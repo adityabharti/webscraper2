@@ -1,0 +1,6 @@
+from scrapy.item import Item, Field
+
+class StarbucksItem(Item):
+    address1 = Field()
+    address2 = Field()
+    address3 = Field()
